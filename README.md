@@ -1,7 +1,7 @@
 I built a social-media-like platform where users can register, log in and 
 create-edit-delete-like posts. The app is dockerized and also running 
 on render. You can test it using postman but I STRONGLY suggest using the
-"Swagger UI" tool. since the app is running on render you don't even need 
+"Swagger UI" tool. Since the app is running on render you don't even need 
 to run the Docker to test it.
 
 ---Using Swagger UI---
