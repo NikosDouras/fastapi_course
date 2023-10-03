@@ -13,4 +13,7 @@ Type:
 
 #alembic upgrade head (Run alembics migrations)
 
-You can now close the bash, hopefully everything went well. You can make requests locally : http://127.0.0.1:8000..../.../... check out the End-points-Postman.txt.
+You can now close the bash, hopefully everything went well. You can make requests locally : 
+http://127.0.0.1:8000..../.../... check out the End-points-Postman.txt.
+
+or using the Swagger UI http://127.0.0.1:8000/docs
