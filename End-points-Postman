@@ -1,4 +1,5 @@
-For all the requests Using Postman, use Body->raw->JSON. Under each endpoint I provide the requested format of the requests content. Dont forget to use your Token for authentication!
+For all the requests Using Postman, use Body->raw->JSON. Under each endpoint I provide the requested format of the requests content. 
+Dont forget to use your Token for authentication!
 
 These are the endpoints of my fastAPI:
 
