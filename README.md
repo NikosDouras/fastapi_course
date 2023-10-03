@@ -14,3 +14,6 @@ to run the Docker to test it.
   and password.
 - Now you can create/view/update or delete posts. You can create many
   users and posts (and also likes) to test the API.
+
+  If you prefer to run it with Docker and/or want to test the API  using
+  Postman check out the "Run_it_with_Docker" and "End-points-Postman" files.
