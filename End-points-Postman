@@ -1,0 +1,53 @@
+For all the requests Using Postman, use Body->raw->JSON. Under each endpoint I provide the requested format of the requests content. Dont forget to use your Token for authentication!
+
+These are the endpoints of my fastAPI:
+
+—Users—
+
+POST http://127.0.0.1:8000/users // create a user-Register
+{
+  "email": "user@example.com",
+  "password": "string"
+}
+
+GET http://127.0.0.1:8000/users/{id} // view a user
+
+—Authentication—
+
+POST http://127.0.0.1:8000/api/login  // logging in
+Use the token to authenticate in your requests.
+{
+  "email": "user@example.com",
+  "password": "string"
+}
+
+
+—Posts—
+
+GET http://127.0.0.1:8000/posts //view all posts
+
+POST http://127.0.0.1:8000/posts //create a post
+{
+  "title": "string",
+  "content": "string"
+}
+GET http://127.0.0.1:8000/posts/{id} //view single post
+
+PUT  http://127.0.0.1:8000/posts/{id}   //edit a post
+{
+  "title": "string",
+  "content": "string"
+}
+
+DEL  http://127.0.0.1:8000/api/posts/{id}   //delete a post
+
+
+
+—Votes—
+
+POST http://127.0.0.1:8000/vote //create/delete a vote
+"dir": 1 you vote up, "dir": 0 you delete your vote.
+{
+  "post_id": 3,
+  "dir": 0
+}
