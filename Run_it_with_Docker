@@ -1,0 +1,16 @@
+You need to have docker installed and running.
+
+Open a bash inside the project folder (where the folders/files alembic, app, Dockerfile, requirements.txt, etc exist).
+
+Type:
+
+#docker ps -a (check that you have Docker installed and running, this is just for checking, its not a necessary step)
+
+#docker compose up -d (starts the app, -d: after the installation is finished the program is running in the background. This stage takes the longest by far!
+                       It can take up to 5-20 minutes to complete. Do not move on before it is finished)
+
+#docker compose exec api bash (enter the app's bash to execute the migrations).
+
+#alembic upgrade head (Run alembics migrations)
+
+You can now close the bash, hopefully everything went well. You can make requests locally : http://127.0.0.1:8000..../.../... check out the End-points.txt.
