@@ -1,12 +1,13 @@
 I built a social-media-like platform where users can register, log in and 
 create-edit-delete-like posts. The app is dockerized and also running 
-on render. You can test it using postman but I STRONGLY suggest using the
-"Swagger UI" tool. Since the app is running on render you don't even need 
-to run the Docker to test it.
+on render and an Ubuntu Server on Digital Ocean. You can test it using 
+postman but I STRONGLY suggest using the "Swagger UI" tool. Since the 
+app is running on render you don't even need to run the Docker to test it.
 
 ---Using Swagger UI---
 
 - Simply paste this link: https://nikos19fastapi.onrender.com/docs
+  (or this if you want to access the Ubuntu Server: http://138.197.185.78:8000/docs)
   on your Browser.(refresh your first click, it takes 30s to come back to life)
 - First create a user in the section "users". Click on "try it out" and
   follow the example to send your request.
