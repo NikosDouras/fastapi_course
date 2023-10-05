@@ -12,7 +12,7 @@ services:
       - DATABASE_PASSWORD=password123
       - DATABASE_NAME=fastapi
       - DATABASE_USERNAME=postgres
-      - SECRET_KEY=kjsadnkjasnvona0980230rfd$#jsfnk
+      - SECRET_KEY=kjsadnkjasnvona0980230rfd$
       - ALGORITHM=HS256
       - ACCESS_TOKEN_EXPIRE_MINUTES=60
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
